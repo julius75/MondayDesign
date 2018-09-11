@@ -93,12 +93,13 @@ header a:hover{
     width: 250px;
 }
 .button_1{
-    height: 38px;
-    background-color: #cccccc;
+    height: 58px;
+    background-color: cadetblue;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
-    color: white;
+    color: #1abc9c;
+
 }
 #boxes{
     margin-top: 20px;
@@ -108,6 +109,27 @@ header a:hover{
     text-align: center;
     width: 30%;
     padding: 10px;
+}
+/*sidebar desig*/
+ aside#sidebar{
+     float: left;
+     width: 40%;
+     margin-top: 10px;
+     text-align: center;
+     color: black;
+     min-height: 320px;
+}
+ /*main image background*/
+
+section#main-col{
+    float: right;
+    width: 60%;
+    background: url("../image/images.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    min-height: 320px;
+
 }
 footer{
     padding: 20px;
