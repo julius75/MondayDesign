@@ -121,6 +121,16 @@ header a:hover{
 }
  /*main image background*/
 
+/*horizontal bar*/
+#one{
+    float: left;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    color: black;
+    min-height: 90px;
+}
+
 section#main-col{
     float: right;
     width: 60%;
@@ -129,6 +139,15 @@ section#main-col{
     text-align: center;
     color: white;
     min-height: 320px;
+
+}
+/*second bar*/
+section#two{
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+    min-height: 90px;
 
 }
 footer{
