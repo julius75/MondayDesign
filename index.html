@@ -5,65 +5,72 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="design">
     <meta name="author" content="julius">
-    <title>Africolt -Welcome</title>
+    <title>Africolt |ourpartners</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 <body>
 <header>
-<div class="container">
-    <div id="branding">
-        <h1>Africolt</h1>
+    <div class="container">
+        <div id="branding">
+            <h1>Africolt</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">about us</a></li>
+                <li ><a href="salesforce.html">about salesforce</a></li>
+                <li ><a href="partners.html">our partners</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav>
-        <ul>
-            <li class="current"><a href="index.html">About us</a></li>
-            <li class="current"><a href="salesforce.html">About Sales force</a></li>
-            <li class="current"><a href="partners.html">our partners</a></li>
-        </ul>
-    </nav>
-</div>
 </header>
 
 
-<section id="showcase">
+<section id="main">
     <div class="container">
-        <h1>JAMBOO...</h1>
-        <p>Build A Real-World HTML5 & CSS3 Responsive Website From Scratch </p>
+        <section id="main-col">
+            <h1 class="page-title">Background</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores </p>
 
+        </section>
+        <aside id="sidebar">
+            <h1 class="page-title">Jambo ...</h1>
+            <p>Indignation and dislike men who are so beguiled and demoralized  </p>
+            <p><span></span>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and praesentium voluptatum deleniti</span></p>
+            <p style="margin-left: 10px">Learn more about us <i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+            <form action="" style="float: right;">
+                <input type="email" placeholder="email adress" style=" padding: 4px;height: 49px;width: 250px;">
+                <button type="submit" class="button_1">HELP MY BUSINESS</button>
+            </form>
+
+        </aside>
     </div>
 </section>
 
 
-<section id="newsletter">
+<section id="about-us">
     <div class="container">
-        <h1>newsss</h1>
-        <form action="">
-            <input type="email" placeholder="email adress">
-            <button type="submit" class="button_1">Join Us</button>
-        </form>
+        <h1>About us</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa </p>
     </div>
 </section>
 
-<section id="boxes">
+<!--tabss-->
+<section id="tabs">
     <div class="container">
-        <div class="box">
-            <i class="fa fa-calendar fa-5x"></i>
-            <h3>TRY NEW</h3>
-            <p>This is the sample app of the tutorial Build A Real-World HTML5 & CSS3 Responsive Website From Scratch available on CodingTheSmartWay.com</p>
+        <div class="tab" >
+            <button class="tablinks" onclick="openCity(event, 'London' )" style="border:none;">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
         </div>
+    </div>
+</section>
 
-        <div class="box">
-            <i class="fa fa-cube fa-5x"></i>
-            <h3>TRY NEW</h3>
-            <p>This is the sample app of the tutorial Build A Real-World HTML5 & CSS3 Responsive Website From Scratch available on CodingTheSmartWay.com</p>
-        </div>
 
-        <div class="box">
-            <i class="fa fa-photo fa-5x"></i>
-            <h3>TRY NEW</h3>
-            <p>This is the sample app of the tutorial Build A Real-World HTML5 & CSS3 Responsive Website From Scratch available on CodingTheSmartWay.com</p>
-        </div>
+<section id="numbers">
+    <div class="container">
+        <h3>lets design someting fabulous together</h3>
+        <h1>+08089878666666</h1>
     </div>
 </section>
 
@@ -71,5 +78,7 @@
     <p>webss, &copy; CopyRight 2018 </p>
 
 </footer>
+
+<script src="js/tabs.js"></script>
 </body>
 </html>
