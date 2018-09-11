@@ -145,6 +145,7 @@ section#main-col{
 section#two{
     float: right;
     width: 50%;
+    margin-top: 0;
     text-align: center;
     color: white;
     min-height: 90px;
@@ -153,8 +154,7 @@ section#two{
 footer{
     padding: 10px;
     margin-top: 0px;
-    color: white;
-    background-color: #1abc9c;
+    color: black;
     text-align: center;
 }
 @media (max-width: 768px){
